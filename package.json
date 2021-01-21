@@ -187,6 +187,10 @@
           "type": "boolean",
           "default": true,
           "markdownDescription": "When enabled, if you press the return key from the first line of a multiline string containing a pipe, it will automatically add `.stripMargin`."
+        },
+        "metals.defaultScalaVersion": {
+          "type": "string",
+          "markdownDescription": "Scala-compiler version that is used as default or fallback in case if file doesn't belong to any build target or specified Scala version isn't supoorted by Metals"
         }
       }
     },
